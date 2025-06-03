@@ -1,0 +1,149 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #fff;
+    color: #111;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #d10000;
+    font-weight: bold;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #111;
+  }
+  
+  .info {
+    text-align: right;
+  }
+  
+  .info button {
+    background: #d10000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 5px;
+  }
+  
+  .breadcrumb {
+    padding: 20px 50px;
+    background: #fff0f0;
+    font-size: 14px;
+  }
+  
+  .payment-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    gap: 40px;
+  }
+  
+  .product-list {
+    flex: 2;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .product-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-info img {
+    margin: 0 10px;
+    width: 60px;
+    height: auto;
+  }
+  
+  .remove-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .coupon-section {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .coupon-section input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+  
+  .apply-btn, .update-btn {
+    background: #d10000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .payment-options {
+    flex: 1;
+    padding: 20px;
+    background: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .payment-options form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .payment-options label {
+    margin-bottom: 10px;
+  }
+  
+  .qr-btn {
+    background: white;
+    color: #d10000;
+    border: 2px solid #d10000;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .pay-btn {
+    background: #d10000;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  

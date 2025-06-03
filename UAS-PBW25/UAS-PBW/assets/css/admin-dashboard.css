@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-logout {
+    background-color: #fff;
+    color: #d32f2f;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.stats {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.card p {
+    font-size: 2rem;
+    margin: 0.5rem 0 0;
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #b71c1c;
+}
+
+.admin-box {
+    background-color: #fff;
+    color: #d32f2f;
+    padding: 6px 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
